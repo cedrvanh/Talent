@@ -1,0 +1,90 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "content-block"}}
+
+    {{> includes/nav}}
+
+    <header class="header">
+      <div class="header__overlay"></div>
+      <div class="header__text">
+        <div class="header__title--secondary">
+          <h4>Een opleiding voor echte creatievelingen</h>
+        </div>
+        <div class="header__title--primary">
+          <h1>Grafische &amp; Digitale Media</h1>
+        </div>
+        <div class="header__buttons">
+          <a href="projects.html" class="header__button dark">Bekijk projecten</a>
+          <a href="about.html" class="header__button">Ontdek deze opleiding</a>
+        </div>
+      </div>
+    </header>
+    <article class="fb-grid__container">
+      <div class="showcase__wrapper">
+        <section class="fb-grid__row">
+          <div class="fb-grid__col-12 title__top">
+            <h3>Gemaakt door onze studenten</h3>
+            <div class="desktop">
+              {{> includes/button title="Bekijk alles" path="/projects.html"}}
+            </div>
+          </div>
+        </section>
+        <section class="fb-grid__row project-container">
+      </section>
+      </div>
+      <div class="mobile">
+        <section class="fb-grid__row">
+          <div class="fb-grid__col-4 fb-grid__col-sm-12 fb-grid__col-xs-12">
+            {{> includes/button title="Bekijk alles" path="/projects.html"}}
+          </div>
+        </section>
+      </div>
+      <div class="section-spacer"></div>
+      <section class="fb-grid__row">
+        <div class="fb-grid__col-12 title__top">
+          <h3>Nieuws over de opleiding</h3>
+          <div class="desktop">
+            {{> includes/button title="Bekijk alles" path="/posts.html"}}
+          </div>
+        </div>
+      </section>
+      <section class="fb-grid__row post-container">
+      </section>
+      <div class="mobile">
+        <section class="fb-grid__row">
+          <div class="fb-grid__col-4 fb-grid__col-sm-12 fb-grid__col-xs-12">
+            {{> includes/button title="Bekijk alles" path="/posts.html"}}
+          </div>
+        </section>
+      </div>
+    </article>
+    <div class="section-spacer"></div>
+    <div class="info-small">
+      <div class="info-small__image"></div>
+      <section class="fb-grid__container info-small__content">
+        <h2>Kom meer te weten over onze opleiding</h2>
+        <p>Kom alles te weten over de verschillende afstudeerrichtingen en bijhorende specialisaties op onze mediacampus tijdens de opendeurdag 2018. Het belooft een visueel spektakel te worden.</p>
+        {{> includes/button title="Over de opleiding" path="/about.html"}}
+      </section>
+    </div>
+    <article class="fb-grid__container ">
+      <section class="fb-grid__row">
+        <section class="fb-grid__col-12 contact-home">
+          <h3 class="contact__title">Contacteer ons met vragen</h3>
+          <div class="desktop">
+            <p>Vragen over onze opleiding? Aarzel zeker niet om ons te contacteren.</p>
+          </div>
+          {{> includes/button title="Contacteer ons" path="/contact.html"}}
+        </section>    
+      </section>
+    </article>
+
+    {{> includes/footer}}
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

@@ -1,0 +1,55 @@
+body {
+  font-family: $base-font-family;
+  font-size: #{$base-font-size}px;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings-font-family;
+}
+
+h1 {
+  margin: 8px;
+  font-size: $fs-h1;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: $fs-h2;
+  font-weight: 700;
+  color: $color-heading;
+}
+
+h3 {
+  font-size: $fs-h3;
+  text-align: center;
+}
+
+h4 {
+  font-size: $fs-h4;
+}
+
+a {
+  text-decoration: none;
+  color: $color-secondary;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 48rem) {
+  h1 {
+    font-size: ($fs-h1 + 6px);
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 28px;
+  }
+}

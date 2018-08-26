@@ -1,0 +1,17 @@
+{{#each this}}
+<div class="fb-grid__col-4 fb-grid__col-sm-12 fb-grid__col-xs-12">
+    <a href="/projectdetail.html?id={{ @key }}" class="card__link">
+    <div class="card project">
+        <div class="card__image">
+            <img src="{{ thumbnail_url }}" alt="Trois-Quarts Thumbnail">
+        </div>
+        <div class="card__content">
+            {{#each students}}
+            <p>{{ name }}</p>
+            {{/each}}
+            <h2 class="card__title">{{ title }}</h2>
+        </div>
+    </div>
+    </a>
+</div>
+{{/each}}

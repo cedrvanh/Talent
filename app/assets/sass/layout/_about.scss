@@ -1,0 +1,19 @@
+.about {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.about__specialization {
+    margin: 16px 0;
+}
+
+@media screen and (min-width: 48rem) {
+    .about {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    
+    .about__specialization {
+        margin: 32px 0;
+    }
+}

@@ -1,0 +1,57 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "content-block"}}
+
+    {{> includes/nav}}
+
+    <header class="header">
+      <div class="header__overlay"></div>
+      <div class="header__text">
+        <div class="header__title--primary">
+          <h1>Grafische &amp; Digitale Media</h1>
+        </div>
+        <div class="header__buttons">
+          <a href="projects.html" class="header__button dark">Bekijk projecten</a>
+        </div>
+      </div>
+    </header>
+    
+    <article class="fb-grid__container about">
+      <section class="fb-grid__row about__specialization">
+        <div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+          <img src="../images/cmo.jpg">
+        </div>
+        <div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+          <h2>Crossmedia-ontwerp</h2>
+          <p>Bij Crossmedia-ontwerp staat creatief denken centraal, maar leer je ook om rekening te houden met technische uitvoermogelijkheden (is het wel mogelijk om daar reliëf te voorzien, zo dicht bij een vouwlijn?). Halfweg het tweede jaar kun je kiezen uit twee trajecten om je nog verder te specialiseren: Graphic Design en Photo Design.</p>
+        </div>
+      </section>
+      <section class="fb-grid__row about__specialization">
+        <div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+          <img src="../assets/images/nmd.jpg">
+        </div>
+        <div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+          <h2>Multimediaproductie</h2>
+          <p>Studenten multimediaproductie beperken zich niet enkel tot het gebruik van de laatste nieuwe technologie, maar weten deze ook in een creatief design te plaatsen om een kant-en-klaar digitaal eindproduct te kunnen opleveren. Na een doorgedreven algemene grafische en multimediale basisopleiding in het eerste jaar kies je in het tweede semester voor het keuzetraject Audiovisual Design of New Media Development.</p>
+        </div>
+      </section>
+      <section class="fb-grid__row about__specialization">
+        <div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+          <img src="../assets/images/gmb.jpg">
+        </div>
+        <div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+          <h2>Grafimediabeleid</h2>
+          <p>Ben je gepassioneerd door de impact van print- en multimedia op ons leven? Zoek je een gevarieerde afstudeerrichting die je klaarstoomt voor een job in de media- of grafische sector? Dan is grafimediabeleid ongetwijfeld iets voor jou. Het is een ideale mix tussen creatief ondernemen, innovatieve communicatie en productkennis binnen de sector. Je kan kiezen uit twee verschillende trajecten: Crossmedia of Printmedia.</p>
+        </div>
+      </section>
+    </article>
+
+    {{> includes/footer}}
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

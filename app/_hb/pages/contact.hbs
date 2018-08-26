@@ -1,0 +1,49 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "content-block"}}
+
+    {{> includes/nav}}
+
+    <article class="fb-grid__container contact">
+        <section class="fb-grid__row">
+            <section class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+                <h2 class="contact__title">Contacteer ons</h2>
+                <p>Vragen over onze opleiding? <br>Aarzel zeker niet om ons te contacteren.</p>
+            </section>
+            <section class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12 contact-form">
+                <form class="form">
+                    {{> includes/input type="text" placeholder="E-mail" id="contactEmail"}}
+                    {{> includes/input type="text" placeholder="Onderwerp" id="contactSubject"}}
+
+                    {{> includes/input textarea="true" rows="7" placeholder="Bericht" id="contactMsg"}}
+
+                    {{> includes/button title="Versturen" id="contactSubmit" formButton=true}}
+                </form>
+            </section>
+        </section>   
+    </article>
+    <div class="contact__info">
+        <div class="map">
+            <img src="../assets/images/maps.png">
+        </div>
+        <div class="contact__text">
+            <h3>Contactgegevens</h3>
+            <ul>
+                <li>Industrieweg 232</li>
+                <li>9030 Gent-Mariakerke</li>
+                <li>09 234 86 00</li>
+            </ul>
+            {{> includes/button title="Open in Google Maps"}}
+        </div>   
+    </div>
+
+    {{> includes/footer}}
+
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

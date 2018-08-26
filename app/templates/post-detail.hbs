@@ -1,0 +1,19 @@
+<header class="header" style="background: url({{ thumbnail_url }}">
+    <div class="header__overlay"></div>
+</header>
+
+<article class="fb-grid__container">
+    <section class="fb-grid__row">
+        <section class="post-detail fb-grid__col-8 fb-grid__col-sm-12 fb-grid__col-xs-12">
+            <span class="post-detail__published">Gepost op {{ published_date }} door {{ author }}</span>
+            <h2 class="post-detail__title">{{ title_long }}</h2>
+            <p class="post-detail__description">
+                {{ description }}
+            </p>
+            <p class="post-detail__text">
+                {{ content }}
+            </p>
+        </section>
+        
+    </section>
+</article>

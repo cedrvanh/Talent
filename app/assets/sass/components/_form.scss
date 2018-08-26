@@ -1,0 +1,35 @@
+input, textarea {
+    background: $color-background;
+    border: 2px solid $color-background;
+    resize: vertical;
+
+    &:focus {
+        outline: none;
+    }
+    
+    &::placeholder {
+        /* Change font-family */ 
+        text-transform: uppercase;
+        color: $color-text;
+        opacity: 1;
+    }
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.form-input {
+    width: calc(100% - 32px);
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 32px;
+    
+    color: $color-text;
+    box-sizing: border-box;
+}

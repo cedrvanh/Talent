@@ -1,0 +1,58 @@
+{
+    "posts": [
+        {
+            "id": "0",
+            "url": "",
+            "title": "De Warmathon Gent",
+            "title_long": "Loop mee met De Warmathon Gent",
+            "description": "Op maandag 18 december zal het kwik hoog oplopen in de Blaarmeersen, want dan vindt De Warmathon - Gent ten voordele van Music For Life er plaats...",
+            "thumbnail_url": "./assets/images/posts/post-1/thumb.jpg",
+            "content": "Op maandag 18 december zal het kwik hoog oplopen in de Blaarmeersen, want dan vindt De Warmathon - Gent ten voordele van Music For Life er plaats. Arteveldehogeschool is uiteraard weer van de partij. En jij kan als student, docent of medewerker ons team versterken! Of je rent, jogt of stapt maakt niets uit, elk rondje telt. Schrijf je in via https://dewarmsteweek.stubru.be, vraag je gratis sport-T-shirt aan via sport@arteveldehs.be en loop mee op maandag 18 december om 16 uur! Meer dan 100 studenten en werknemers zullen mee lopen of wandelen."
+        },
+        {
+            "id": "1",
+            "url": "",
+            "title": "Kerstmarkt",
+            "title_long": "Een 'happy' kerstmarkt op Kantienberg",
+            "description": "In de week van 11 december zorgen de studenten journalistiek 5 dagen lang voor gezellige muziek",
+            "thumbnail_url": "./assets/images/posts/post-2/thumb.jpg",
+            "content": "In de week van 11 december zorgen de studenten journalistiek 5 dagen lang voor gezellige muziek. Elke dag van 13u30 tot 17u30 loopt hun actie \"Let's make happiness\" op Studentenradio SAM. Wil je je favoriete liedje door campus Kantienberg horen knallen? Vraag jouw plaatje aan en schenk een bijdrage aan het goede doel Make-A-Wish. Ontdek hier hoe je jouw plaatje kan aanvragen. Dezelfde actie \"Let's make happiness\" zorgt ook voor een muzikale kerstmarkt op 12 december van 10u tot 16u op campus Kantienberg!"
+        },
+        {
+            "id": "2",
+            "url": "",
+            "title": "Kaartenverkoop",
+            "title_long": "Artistieke kaartenverkoop",
+            "description": "Drie docenten uit de opleiding sociaal werk  gooiden hun artistieke talent samen en ontwierpen 10 unieke wenskaarten.",
+            "thumbnail_url": "./assets/images/posts/post-3/thumb.png",
+            "content": "Drie docenten uit de opleiding sociaal werk  gooiden hun artistieke talent samen en ontwierpen 10 unieke wenskaarten. Je kan jouw kaartjes kopen van maandag 27 november tot vrijdag 22 december op Campus Sint-Annaplein. De kaarten worden per 5 verkocht, één pakketje kost 5 euro. De opbrengsten gaan naar de vzw Een hart voor vluchtelingen."
+        },
+        {
+            "id": "3",
+            "url": "",
+            "title": "Boetes for life",
+            "title_long": "Boetes for life",
+            "description": "Op maandag 18 december zal het kwik hoog oplopen in de Blaarmeersen, want dan vindt De Warmathon - Gent ten voordele van Music For Life er plaats.",
+            "thumbnail_url": "./assets/images/posts/post-4/thumb.png",
+            "content": "Te laat om je boek terug te brengen naar de mediatheek? Deze maand hoef je je niet slecht te voelen over dat verloren geld! De mediatheken van Arteveldehogeschool schenken alle boetegelden van de maand december integraal aan Hachiko vzw."
+        },
+        {
+            "id": "4",
+            "url": "",
+            "title": "Embrace for Life",
+            "title_long": "Embrace for Life",
+            "description": "Op dinsdag 19 en donderdag 21 december vindt de actie 'Embrace for Life' zich plaats",
+            "thumbnail_url": "./assets/images/posts/post-5/thumb.png",
+            "content": "Op dinsdag 19 en donderdag 21 december wordt de docentengang op de tweede verdieping van Kantienberg het podium van de actie ‘Embrace for Life’! Kom zeker eens langs tussen 10 u en 16.30 u (dinsdag) of 10 u en 15 u (donderdag) en spendeer je centjes aan het goede doel. Concreet zal je er glühwein en chocomelk vinden op een door jou gekozen muziekje. Je kan meedoen aan wedstrijden in je beste ugly X-mas-sweater. Of je sportieve kant demonstreren."
+        },
+        {
+            "id": "5",
+            "url": "",
+            "title": "Kerstsfeer op Campus Mariakerke",
+            "title_long": "Saxofoons, hotdogs en marshmallows op Campus Mariakerke",
+            "description": "Campus Mariakerke wordt op dinsdag 19 en donderdag 21 december ondergedompeld in de kerstsfeer.",
+            "thumbnail_url": "./assets/images/posts/post-6/thumb.png",
+            "content": "Campus Mariakerke wordt op dinsdag 19 en donderdag 21 december ondergedompeld in de kerstsfeer. Studenten verkopen hotdogs, poffertjes, jenever, warme chocomelk en marshmellows aan hun hongerige medestudenten. En de studentenraad zorgt voor sfeer met een saxofoonkwartet."
+        }
+    ]
+}

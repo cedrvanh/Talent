@@ -1,0 +1,670 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "title": "Kinderboerderij",
+            "description": "Als eindwerk voor de tweede jaar ontwikkelden de studenten Graphic Design een huisstijl voor een lokale kinderboerderij. Jules Van Rijsselberge ontwierp een sterk, uitgepuurd logo. Een functioneel uithangbord voor de organisatie. Hij combineert in zijn ontwerp een strakke vormgeving met een spontane, kindvriendelijke illustratiestijl gebaseerd op een digitale wasco-techniek.",
+            "thumbnail_url": "./assets/images/projects/kinderboerderij/thumb.jpg",
+            "students": [
+                {
+                    "name": "Jules Van Rijsselberge",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/kinderboerderij/1.logo.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/kinderboerderij/2.uitleglogo.jpg",
+                    "type": "image",
+                    "description": "Een inzetbaar logo is voldoende schaalbaar, heeft een beperkt kleurenpalet en vertolkt voldoende de waarden van het merk. De opgegeven witruimte rondom het logo respecteren is een belangrijke factor voor succesvol gebruik."
+                },
+                {
+                    "url": "./assets/images/projects/kinderboerderij/3.illustraties.jpg",
+                    "type": "image",
+                    "description": "Digitaal uitgewerkte illustraties"
+                },
+                {
+                    "url": "./assets/images/projects/kinderboerderij/5.schetsposter.jpg",
+                    "type": "image",
+                    "description": "Van ideeschets naar uitgewerkte versie"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "title": "The Sweet Tooth",
+            "description": "In de tweede jaar ontwikkelden de studenten een huisstijl voor een foodtruck-concept. Anthony bracht zijn frozen yoghurt via een kleurrijk communicatieconcept aan de man.",
+            "thumbnail_url": "./assets/images/projects/sweet-tooth/thumb.png",
+            "students": [
+                {
+                    "name": "Athony Nys",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/sweet-tooth/2.jpg",
+                    "type": "image",
+                    "description": "'Branded' communicatie vertrekt in de meeste gevallen vanuit een logo. Een logo kan makkelijk gereproduceerd worden, maar voor het er is worden vele uren besteed aan ontwerpwerk, besprekingen en bijschaven. "
+                },
+                {
+                    "url": "./assets/images/projects/sweet-tooth/3.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/sweet-tooth/4.jpg",
+                    "type": "image",
+                    "description": "Een mockup van de Sweet Tooth foodtruck. Hiermee geef je de klant al een hele goede indruk van hoe de uiteindelijke truck er zal uitzien."
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Diabeasy",
+            "description": "Opdracht: bedenk, ontwerp en maak een prototype van een smartwatch- en een smartphone-app, en maak er een promowebsite voor. Diabeasy is een app voor diabetici die ervoor moet zorgen dat mensen met diabetes gedurende de hele dag een constante bloedsuikerspiegel hebben en het aantal insuline-injecties zo minimaal mogelijk kunnen houden.",
+            "thumbnail_url": "./assets/images/projects/diabeasy/thumb.png",
+            "students": [
+                {
+                    "name": "Stijn Gevens & Julie De Clerq",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/diabeasy/ontwerp-website.png",
+                    "type": "image",
+                    "description": "Ontwerp voor de promosite die in Jekyll uitgewerkt moet worden."
+                },
+                {
+                    "url": "./assets/images/projects/diabeasy/wireflow-smartphone.jpg",
+                    "type": "image",
+                    "description": "Wireflow/Prototype voor de smartphone-app in Adobe XD."
+                },
+                {
+                    "url": "./assets/images/projects/diabeasy/wireflow-smartwatch.jpg",
+                    "type": "image",
+                    "description": "Wireflow/Prototype voor de smartwatch-app in Adobe XD."
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Melk Campagne",
+            "description": "Opdracht: bedenkt een nieuwe merknaam en ontwerp de verpakkingen voor 3 soorten melk. Vol, halfvol en melk met een speciaal smaakje. Er werd een huisstijl uitgewerkt die tevens de basis vormde voor een bijhorende reclamecampagne.",
+            "thumbnail_url": "./assets/images/projects/melkcampagne/thumb.png",
+            "students": [
+                {
+                    "name": "Shauny Eloot",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Photo Design",
+                    "year": "3de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/melkcampagne/1_logoevolutie.png",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/melkcampagne/2_halfvollogo.png",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/melkcampagne/3_halfvolverpakking.png",
+                    "type": "image",
+                    "description": "Kapvorm en photoshop mockup van de halfvolle melk."
+                },
+                {
+                    "url": "./assets/images/projects/melkcampagne/4_applogo.png",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/melkcampagne/5_appmockup.png",
+                    "type": "image",
+                    "description": "Ontwerp van een promotionele app. Op basis van een ingegeven 'mood' worden melksuggesties aangereikt."
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "FitChallenge",
+            "description": "Opdracht: bedenk, ontwerp en maak een prototype .",
+            "thumbnail_url": "./assets/images/projects/fit-challenge/thumb.png",
+            "students": [
+                {
+                    "name": "Manon Adriaens & Alyssa Mae Enzon",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Photo Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/fit-challenge/screen-designs-01.png",
+                    "type": "image",
+                    "description": "Screen mockups."
+                },
+                {
+                    "url": "./assets/images/projects/fit-challenge/screen-designs-02.png",
+                    "type": "image",
+                    "description": "Screen designs voor smartphone-app."
+                },
+                {
+                    "url": "./assets/images/projects/fit-challenge/wireflow-smartphone.jpg",
+                    "type": "image",
+                    "description": "Wireflow/Prototype voor de smartphone-app in Adobe XD."
+                }
+            ],
+            "tags": [
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                },
+                {
+                    "name": "Adobe XD"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Blitter",
+            "description": "Opdracht: bedenk, ontwerp en programmeer een Hybrid App dat het ecologische, economische en sociaal probleem van zwerfvuil en sluikstorten kan helpen oplossen.",
+            "thumbnail_url": "./assets/images/projects/blitter/thumb.png",
+            "students": [
+                {
+                    "name": "Pieter-Jan Sas",
+                    "specialization": "Multimediaproductie",
+                    "option": "New Media Development",
+                    "year": "3de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/blitter/4_detail_mockup.png",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/blitter/5_detail_mockup.png",
+                    "type": "image",
+                    "description": "Via een webapplicatie kan iedereen online zwerfvuil en sluikstorten melden. Elke melding wordt door het systeem automatisch doorgestuurd naar een milieuambtenaar."
+                },
+                {
+                    "url": "./assets/images/projects/blitter/2_detail_styletiles.png",
+                    "type": "image",
+                    "description": "Styletiles worden ontworpen om het design van de website vast te leggen. Hiertoe behoren kleuren, fonts, maar evengoed het ontwerp van buttons, tekstkaders of de manier waarop afbeeldingen dienen gebruikt te worden in de app."
+                },
+                {
+                    "url": "./assets/images/projects/blitter/3_detail_screens.png",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/blitter/6_detail_poster.png",
+                    "type": "image",
+                    "description": ""
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Ionic"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "MySQL"
+                },
+                {
+                    "name": "PHP"
+                },
+                {
+                    "name": "Symfony"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "title": "Les Trois Quarts",
+            "description": "Wijn wordt maar al te vaak in een klassieke verpakking verkocht. De studenten 3CMO onderzochten hoe een hedendaagse wijnverpakking er kan uitzien",
+            "thumbnail_url": "./assets/images/projects/trois-quarts/thumb.jpg",
+            "students": [
+                {
+                    "name": "Quinten Braem",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Photo Design",
+                    "year": "3de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/trois-quarts/1_logo.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/trois-quarts/2_packshot_wijn.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/trois-quarts/3_packshot_wijn_2.jpg",
+                    "type": "image",
+                    "description": ""
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Huisstijl Bourgoyen",
+            "description": "De studenten van het 2de jaar CMO kregen de opdracht om het Gentse natuurreservaat De Bourgoyen van een huisstijl te voorzien. Er werd een logo ontwikkeld, een passende illustratiestijl en diverse print- en schermtoepassingen",
+            "thumbnail_url": "./assets/images/projects/bourgoyen/thumb.jpg",
+            "students": [
+                {
+                    "name": "Phaedra De Wambersie",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/bourgoyen/1.logo.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/bourgoyen/2.logonegatief.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/bourgoyen/3.logonegatief.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/bourgoyen/5.illustraties.jpg",
+                    "type": "image",
+                    "description": ""
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Space Dweller",
+            "description": "Opdracht: 'stel je voor dat een reis naar de planeet Mars even gewoon zou zijn als een intercontinentale vlucht op aarde. Hoe zou je deze reis dan promoten?'",
+            "thumbnail_url": "./assets/images/projects/dweller/thumb.jpg",
+            "students": [
+                {
+                    "name": "Jonas Dermul",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/dweller/balk-logo.png",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/dweller/balk-logo2.png",
+                    "type": "image",
+                    "description": "Een huisstijl vertrekt vaak vanuit het ontwerp van een logo, dat als basis dient voor de verdere uitwerken van het visuele systeem."
+                },
+                {
+                    "url": "./assets/images/projects/dweller/balk-visual-poster.png",
+                    "type": "image",
+                    "description": "Voor de poster werd een opvallende visual ontworpen als blikvanger."
+                },
+                {
+                    "url": "./assets/images/projects/dweller/balk-poster.png",
+                    "type": "image",
+                    "description": "Het goed afgewogen en bewust beperkt gehouden kleurenpalet zorgt voor visuele binding tussen de elementen in de campagne"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Marsman",
+            "description": "Opdracht: 'stel je voor dat een reis naar de planeet Mars even gewoon zou zijn als een intercontinentale vlucht op aarde. Hoe zou je deze reis dan promoten?",
+            "thumbnail_url": "./assets/images/projects/marsman/thumb.jpg",
+            "students": [
+                {
+                    "name": "Kato Janssens",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/marsman/1.logo.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/marsman/2.logo.jpg",
+                    "type": "image",
+                    "description": "Het uitwerken van de campagne begon met het ontwerp van een passend logo. Een symbool dat een goede mix van wetenschappelijkheid en toegankelijkheid uitstraalt"
+                },
+                {
+                    "url": "./assets/images/projects/marsman/5.poster.jpg",
+                    "type": "image",
+                    "description": "De poster is opgebouwd rondom blikvanger die meteen de aandacht van de voorbijganger trekt. De volgende stap is de site bezoeken, registreren en de trip richting de sterren aanvatten"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "title": "Festivote",
+            "description": "Opdracht: bedenk, ontwerp en programmeer een elektronisch stemsysteem voor verkiezingen en referenda dat bestaat uit een Mobile Web App, een API en een Backoffice en rekening houdt met authenticatie, privacy, beveiliging en integriteit.",
+            "thumbnail_url": "./assets/images/projects/festivote/thumb.png",
+            "students": [
+                {
+                    "name": "Thomas Coppein & Julien Lemoine",
+                    "specialization": "Multimediaproductie",
+                    "option": "New Media Development",
+                    "year": "2de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/festivote/backoffice-wireframe_01.png",
+                    "type": "image",
+                    "description": "De wireframe van het dashboard van de backoffice."
+                },
+                {
+                    "url": "./assets/images/projects/festivote/app-visual-designs.png",
+                    "type": "image",
+                    "description": "Enkele visual designs van de app."
+                },
+                {
+                    "url": "./assets/images/projects/festivote/code.png",
+                    "type": "image",
+                    "description": "Laravel- en Vue.js-code."
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Laravel"
+                },
+                {
+                    "name": "MySQL"
+                },
+                {
+                    "name": "PHP"
+                },
+                {
+                    "name": "Vue.js"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "title": "Kon Samui",
+            "description": "Een graphic designer moet zich kunnen verplaatsen in de leefwereld van elk soort klant. In dit geval ging om het de wereld van reizen en het promoten van toeristische bestemmingen.",
+            "thumbnail_url": "./assets/images/projects/kon-samui/thumb.jpg",
+            "students": [
+                {
+                    "name": "Elena Vanhauwaert",
+                    "specialization": "Crossmedia-ontwerp",
+                    "option": "Graphic Design",
+                    "year": "3de jaar"
+                }
+            ],
+            "media": [
+                {
+                    "url": "./assets/images/projects/kon-samui/1.visual.jpg",
+                    "type": "image",
+                    "description": ""
+                },
+                {
+                    "url": "./assets/images/projects/kon-samui/2.poster.jpg",
+                    "type": "image",
+                    "description": ""
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Adobe XD"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                },
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "Jekyll"
+                },
+                {
+                    "name": "Markdown"
+                },
+                {
+                    "name": "Sass"
+                }
+            ]
+        }
+    ]
+}

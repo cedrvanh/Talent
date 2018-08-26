@@ -1,0 +1,134 @@
+.navbar__desktop {
+    display: none;
+}
+
+.navbar__side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-100%);
+    background: $white;
+    box-shadow: $box-shadow;
+    transition: all .5s ease;
+}
+
+.navbar__hamburger {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.navbar__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.navbar__spacer {
+    margin-top: 57px;
+}
+
+.navbar__user-nav {
+    display: none;
+}
+
+.navbar {
+    height: 65px;
+    background: $white;
+    box-shadow: $box-shadow;
+}
+
+.navbar__title {
+    padding-left: 15px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav__item {
+    display: block;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+.nav__item:hover {
+    background: #f9f9f9;
+}
+
+.nav__item a {
+    display: block;
+    padding: 0 15px;
+    color: $color-heading;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+@media screen and (min-width: 48rem) {
+    .navbar__desktop {
+        display: block;
+    }
+    .navbar__mobile {
+        display: none;
+    }
+    .navbar {
+        height: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background: $white;
+        box-shadow: $box-shadow;
+    }
+    .navbar__user, .navbar__title, .navbar__links {
+        display: block;
+        height: 100%;
+        line-height: 65px;
+        margin: 0 15px;
+    }
+    .navbar__logo {
+        margin: 0;
+        color: $color-secondary;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .navbar__user a {
+        color: $color-heading;
+    }   
+    .nav {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }  
+    .nav__item {
+        display: block;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav__item:hover {
+        background: none;
+    }    
+    .nav__item a {
+        margin: 0x;
+        color: $color-heading;
+    }       
+}

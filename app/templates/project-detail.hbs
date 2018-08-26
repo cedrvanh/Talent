@@ -1,0 +1,54 @@
+<header class="header" style="background: url({{ thumbnail_url }}">
+    <div class="header__overlay"></div>
+</header>
+
+<article class="fb-grid__container">
+    
+</article>
+
+<article class="fb-grid__container project-detail">
+    <section class="fb-grid__row">
+        <section class="fb-grid__col-12">
+            <h1>{{ title }}</h1>
+        </section>
+    </section>
+    <section class="fb-grid__row project__wrapper">
+        <section class="fb-grid__col-7">
+            {{#each media}}
+                <img class="project__image" src="{{ url }}">
+            {{/each}}
+        </section>
+        <section class="fb-grid__col-5">
+            <div class="card">
+                <div class="tags">
+                    {{#each students}}
+                    <div class="tag">
+                        <span class="tag__title">{{ specialization }}</span>
+                    </div>
+                    <div class="tag">
+                        <span class="tag__title">{{ year }}</span>
+                    </div>
+                    {{/each}}
+                </div>
+                
+                <h3>Door</h3>
+                <ul>
+                    {{#each students}}
+                    <li>{{ name }} </li>
+                    {{/each}}
+                </ul>
+                <h3>Omschrijving</h3>
+                <p>{{ description }}</p>
+                <h3>Tags</h3>
+                <div class="tags">
+                    {{#each tags}}
+                        <div class="tag">
+                            <span class="tag__title">{{ name }}</span>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+    </section>
+</article>
+<div class="section-spacer"></div>

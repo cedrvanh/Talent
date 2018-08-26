@@ -1,0 +1,16 @@
+{{#each this}}
+<div class="fb-grid__col-6 fb-grid__col-sm-12 fb-grid__col-xs-12">
+    <a href="/postdetail.html?id={{ @key }}" class="card__link">
+        <div class="card post">
+            <div class="card__image post__image">
+                <img src="{{ thumbnail_url }}" alt="WarmathonThumbnail">
+            </div>
+            <div class="card__content post__content">
+                <h2 class="card__title">{{ title }}</h2>
+                <p>Dit was Opendeurdag 2018! Wij vonden het fantastisch... hopelijk jullie ook! See you next year!</p>
+                <a href="/postdetail.html?id={{ @key }}">Meer lezen</a>
+            </div>
+        </div>
+    </a>
+</div>
+{{/each}}

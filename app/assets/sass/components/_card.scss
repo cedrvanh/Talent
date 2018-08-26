@@ -1,0 +1,43 @@
+.card {
+    width: 100%;
+    margin: 8px 0;
+    background: $white;
+    box-shadow: $box-shadow;
+}
+
+.card__link {
+    color: $color-heading;
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card__image img {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.card__content {
+    padding: 16px;
+}
+
+.card__title, .card__content p {
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 48rem) {
+    .post, .project {
+        transition: all .2s ease;
+    }
+    .post:hover {
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .project:hover {
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+}

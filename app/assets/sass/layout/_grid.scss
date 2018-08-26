@@ -1,0 +1,33 @@
+/// Make a grid container
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-container();
+
+/// Make a grid row
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-row();
+
+/// Make grid columns
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-columns();
+
+// Development Mode for grid
+#{grid-selector('container')}.dev {
+  @for $i from 1 through $grid-columns-amount {
+    #{grid-selector('column')}-#{$i} { 
+      height: 168px;
+      background: #000000;
+      border: 1px solid #ffff00;
+    }      
+  }
+}
+
+.fb-grid__col-1, .fb-grid__col-2, .fb-grid__col-3, .fb-grid__col-4, .fb-grid__col-5, .fb-grid__col-6, .fb-grid__col-7, .fb-grid__col-8, .fb-grid__col-9, .fb-grid__col-10, .fb-grid__col-11, .fb-grid__col-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+}

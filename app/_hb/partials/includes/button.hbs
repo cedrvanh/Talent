@@ -1,0 +1,11 @@
+{{#if formButton}}
+    <button class="button" type="submit" id="{{id}}">
+        <h4>{{title}}</h4>
+    </button>
+{{else}}
+    <a href="{{ path }}">
+        <div class="button">
+            <h4>{{title}}</h4>
+        </div>
+    </a>
+{{/if}}

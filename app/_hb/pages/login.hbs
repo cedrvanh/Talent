@@ -1,0 +1,29 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "content-block"}}
+
+    {{> includes/nav}}
+
+    <article class="fb-grid__container login__container">
+        <section class="fb-grid__row login__form"> 
+          <section class="fb-grid__col-7 fb-grid__col-sm-12 fb-grid__col-xs-12">
+            <h1 class="blue">Grafische <br> &amp; Digitale Media</h1>
+            <form class="form">
+              {{> includes/input type="email" placeholder="E-mail" id="emailField"}}
+              {{> includes/input type="password" placeholder="Wachtwoord" id="passwordField"}}
+
+              {{> includes/button title="Inloggen" id="signIn" formButton=true}}
+            </form>
+            <span>Geen account? <a href="register.html">Registreer</a> dan of login via <a href="#" class="facebook-login">Facebook</a></span>
+          </section>
+        </section>
+    </article>
+
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

@@ -1,0 +1,27 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "content-block"}}
+
+    {{> includes/nav}}
+
+    <header class="header">
+      <div class="header__overlay"></div>
+    </header>
+
+   <article class="fb-grid__container">
+      <div class="section-spacer"></div>
+      <section class="fb-grid__row post-container">
+      </section>
+      <div class="section-spacer"></div>
+    </article>
+
+    {{> includes/footer}}
+
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

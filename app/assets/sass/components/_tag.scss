@@ -1,0 +1,16 @@
+.tag {
+    border: 3px solid $color-secondary;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 0 8px 16px 0px;
+}
+
+.tag__title {
+    color: $color-secondary;
+    font-weight: 900;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}

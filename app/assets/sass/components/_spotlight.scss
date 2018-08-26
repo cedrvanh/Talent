@@ -1,0 +1,41 @@
+.spotlight {
+    margin-top: -250px;
+}
+
+.spotlight .card  {
+    display: flex;
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;    
+}
+
+.spotlight__title {
+    color: white;
+    margin: 32px 0;
+}
+
+.spotlight__image {
+    height: auto;
+    flex: 0 0 60%;
+}
+
+.spotlight__content {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    line-height: 1.6;
+    height: auto;
+}
+
+.spotlight__student {
+    margin-bottom: 16px !important;
+}
+
+.spotlight .button {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    width: 100%;
+    margin-bottom: auto;
+}

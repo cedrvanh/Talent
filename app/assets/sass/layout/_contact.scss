@@ -1,0 +1,58 @@
+.contact {
+    margin-top: 75px;
+    margin-bottom: 32px;
+}
+
+.contact__info {
+    display: flex;
+    flex-wrap: wrap;
+    background: $color-primary;
+    color: $white;
+    text-align: center;
+}    
+
+.contact__text {
+    flex: 1;
+    padding: 32px 48px;
+}
+
+.contact__text .button {
+    display: none;
+}
+
+.contact__text h3 {
+    margin: 8px 0;
+}
+
+.contact__text li {
+    margin: 8px 0;
+}
+
+.map {
+    height: 400px;
+}
+
+@media only screen and (min-width: 48rem) {
+    .contact {
+        margin-top: 125px;
+        margin-bottom: 75px; 
+    }
+    .contact__title {
+        margin-top: 0;
+    }
+    .contact__info {
+        text-align: left;
+    }
+    .contact__info .map {
+        flex-basis: 50%;
+    } 
+    .contact__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .contact__text .button {
+        display: block;
+        margin-top: auto;
+    }
+}
