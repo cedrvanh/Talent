@@ -47,12 +47,26 @@ class App {
     /*
      Binding eventlisteners to buttons
     */
+    const likeBtn = document.getElementById('likeIcon');
+    const viewBtn = document.getElementById('viewIcon');
     const registerBtn = document.getElementById('registerSubmit');
     const contactbtn = document.getElementById('contactSubmit');
     const signInBtn = document.getElementById('signIn');
     const signOutBtn = document.querySelector('.logout');
     const facebookBtn = document.querySelector('.facebook-login');
-    
+
+    if(likeBtn) {
+      likeBtn.addEventListener('click', (e) => {
+        this.like();
+      });
+    }
+
+    if(viewBtn) {
+      viewBtn.addEventListener('click', (e) => {
+        this.view();
+      });
+    }
+
     if(contactbtn) {
       contactbtn.addEventListener('click', (e) => {
         e.preventDefault();
@@ -63,7 +77,7 @@ class App {
     if(registerBtn) {
       registerBtn.addEventListener('click', (e) => {
         e.preventDefault();
-        console.log('Clicked');
+        console.log('Pressed');
         this.signUp();
       });
     }
@@ -95,7 +109,6 @@ class App {
   */
   checkPage() {
     const pathName = window.location.pathname;
-    console.log(pathName);
 
     switch (pathName) {
       case '/projects.html':
@@ -124,7 +137,7 @@ class App {
         console.log('Contact code');
         break;
       default:
-        console.log('Executing code for default page ...');
+        console.log('Default page');
         this.loadPosts();
         this.loadProjects();
     }
@@ -158,14 +171,13 @@ class App {
     const email = document.getElementById('emailField');
     const password = document.getElementById('passwordField');
 
-    if(this.validateForm()) {
-      firebase.auth().createUserWithEmailAndPassword(email.value, password.value).then((user) => {
-        window.location = "index.html";
-      }).catch((error) => {
-        console.log(error);
-        window.alert(error);
-      });
-    }
+    //if(this.validateForm()) {
+    firebase.auth().createUserWithEmailAndPassword(email.value, password.value).then((user) => {
+      window.location = "index.html";
+    }).catch((error) => {
+      window.alert(error);
+    });
+    //}
   }
 
   /*
@@ -175,14 +187,13 @@ class App {
     const email = document.getElementById('emailField');
     const password = document.getElementById('passwordField');
 
-    if(this.validateForm()) {
+    //if(this.validateForm()) {
       firebase.auth().signInWithEmailAndPassword(email.value, password.value).then((user) => {
         window.location = "index.html";
       }).catch((error) => {
-        console.log(error);
         window.alert(error);
       });
-    }
+    //}
   }
 
   /*
@@ -191,7 +202,6 @@ class App {
   signInWithFacebook() {
     const provider = new firebase.auth.FacebookAuthProvider();
     firebase.auth().signInWithPopup(provider).then((data) => {
-      console.log(data.credential.accessToken);
       console.log(data.user);
     });
   }
@@ -255,11 +265,9 @@ class App {
   loadProjectById() {
     Utils.getJsonByPromise('../templates/project-detail.hbs').then((templateData) => {
       const id = this.getParameterByName('id');
-      console.log(id);
       const container = document.querySelector('.detail-container');
       firebase.database().ref('projects/' + id).on('value', (snap) => {
         const data = snap.val();
-        console.log(data);
         this.renderTemplate(templateData, data, container);      
       });
     });
@@ -284,7 +292,6 @@ class App {
   loadPostById() {
     Utils.getJsonByPromise('../templates/post-detail.hbs').then((templateData) => {
       const id = this.getParameterByName('id');
-      console.log(id);
       const container = document.querySelector('.postdetail-container');
       firebase.database().ref('posts/' + id).on('value', (snap) => {
         const data = snap.val();
@@ -310,6 +317,35 @@ class App {
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+
+  /*
+    Localstorage Like
+  */
+  like() {
+    let likeStatus = false;
+
+    switch(likeStatus) {
+      case false:
+        likeIcon.style.color = "red";
+        likeStatus = true;
+        localStorage.setItem('liked', likeStatus);
+        break;
+      case true: 
+        likeIcon.style.color = "#ababab";
+        likeStatus = false;
+        localStorage.removeItem('liked');
+        break;
+    }
+  }
+
+  view() {
+    const viewIcon = document.getElementById('viewIcon');
+    const viewSpan = document.querySelector(".fa-eye");
+    let views = 0;
+
+    views++;
+    viewSpan.innerHTML = views;
   }
 
 };

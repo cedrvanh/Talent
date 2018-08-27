@@ -2,10 +2,6 @@
     <div class="header__overlay"></div>
 </header>
 
-<article class="fb-grid__container">
-    
-</article>
-
 <article class="fb-grid__container project-detail">
     <section class="fb-grid__row">
         <section class="fb-grid__col-12">
@@ -20,6 +16,11 @@
         </section>
         <section class="fb-grid__col-5">
             <div class="card">
+                <ul class="nav">
+                    <li class="nav__item like"><i class="fas fa-heart" id="likeIcon"></i></li>
+                    <li class="nav__item view"><i class="fas fa-eye" id="viewIcon"></i></li>
+                </ul>
+                
                 <div class="tags">
                     {{#each students}}
                     <div class="tag">

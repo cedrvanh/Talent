@@ -8,13 +8,11 @@ input, textarea {
     }
     
     &::placeholder {
-        /* Change font-family */ 
         text-transform: uppercase;
         color: $color-text;
         opacity: 1;
     }
 }
-
 
 .form-control {
     display: block;

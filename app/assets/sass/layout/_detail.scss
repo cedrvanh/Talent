@@ -40,6 +40,19 @@
     margin-bottom: 16px;
 }
 
+.like, .view {
+    display: block;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 16px;
+
+    i {
+        color: $color-heading;
+        margin-right: 8px;
+    }
+}
+
+
 @media screen and (min-width: 48rem) {
     .post-detail {
         margin: 100px 0;
