@@ -1,0 +1,44 @@
+.styleguide__color--1 {
+    background-color: $color-primary;
+    color: $white;
+}
+
+.styleguide__color--2 {
+    background-color: $color-secondary;
+    color: $white;
+}
+
+.styleguide__color--3 {
+    background-color: $color-heading;
+    color: $white;
+}
+
+.styleguide__color--4 {
+    background-color: $color-background;
+}
+
+
+.styleguide__color {
+    h4,
+    p {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin: 0;
+    }
+  }
+  
+.styleguide {
+    h1 {
+        margin-left: 0;
+    }
+    .button--dark {
+        background: $color-heading;
+
+        &:hover {
+            background: black;
+        }
+    }
+    .tag {
+        display: block;
+    }
+}
