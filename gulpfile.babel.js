@@ -1,11 +1,3 @@
-/*
- Automation Project
- =====================================================================================
- Specialization: New Media Development
- Author : Philippe De Pauw - Waterschoot
- Version: 1.0.0
-*/
-
 'use strict';
 
 /*
